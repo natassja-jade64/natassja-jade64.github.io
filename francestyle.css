@@ -1,0 +1,865 @@
+* {
+	Margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Cantata One', serif;
+	font-size: 18px;
+	color: white;
+	background-color: #FCCEB6;
+	background-color: #FFC5CB;
+	background-color: #FCC19F;
+}
+
+a {
+	text-decoration: underline;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	background-color: #FFC5CB;
+	background-color: #FCC19F;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: flex;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+#logo {
+	width: 50%;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+}
+
+nav {
+	width: 50%;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: 20px
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+
+
+
+h1 {
+	color: white;
+	font-family: 'Cantata One', serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Meddon', cursive;
+	font-size: 12vw;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 15% 0 15%;
+
+}
+
+
+
+
+hr {
+	border: 1px solid white;
+	width: 40%;
+	margin: 40px auto 40px auto;
+
+}
+
+
+
+.intro-paragraph {
+	color:white;
+	font-size: 20px;
+	font-weight: 200px;
+
+}
+
+.intro-paragraph-section {
+	padding: 200px;
+	margin-bottom: 30%;
+	padding-top: 400px;
+
+}
+
+
+
+span{
+	font-family: 'Cantata One', serif;
+}
+
+
+/* why isn't this span working? */
+
+
+
+.title1 {
+	font-size: 8vw;
+	margin: 0;
+
+	color: #E08475;
+	color: #E59065;
+	position: absolute;
+	right: 7vw;
+	margin-top: -11%;
+}
+
+
+
+
+
+
+h2 {
+	font-size: 5vw;
+	text-align: center;
+	margin-bottom: -5%;
+}
+
+
+
+
+
+.versaillespic1 {
+	width: 100%;
+}
+
+.galerie {
+	width: 100%;
+
+}
+
+.bisous {
+	position: absolute;
+	margin-top: -58%;
+	left: -10vw;
+	transform: rotate(-4deg)
+}
+
+.de {
+	font-size: 10vw;
+	position: absolute;
+	margin-top: -12%;
+	right: -10vw;
+	transform: rotate(-4deg)
+}
+
+.title2 {
+	font-size: 16vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	right: 2vw;
+	margin-top: -15%;
+}
+
+
+.versailles {
+	display: flex;
+	padding: 200px 0 200px 0;
+
+}
+
+.versailles2 {
+	display: flex;
+	padding: 200px 0 200px 0;
+	margin-top: -30%;
+}
+
+.column {
+	width: 50%;
+	padding: 50px;
+}
+
+.versaillespic2 {
+	width: 100%;
+	height: auto;
+}
+
+.versaillespic3 {
+	width: 100%;
+}
+
+.jardin {
+	width: 100%;
+	display: block;
+	margin-top: 22%;
+	padding: 50px;
+}
+
+.title {
+	margin-top: -5%;
+}
+
+.fiveplaces {
+	font-size: 10vw;
+	position: absolute;
+	left: 6%;
+	margin-top: 10%;
+}
+
+
+.when {
+	font-size: 6vw;
+	position: absolute;
+	left: 6%;
+	margin-top: 24%;
+}
+
+
+
+.france {
+	font-size: 15vw;
+	position: absolute;
+	right: -12vw;
+	margin-top: 16%;
+	transform: rotate(0deg);
+	z-index: 5;
+
+}
+
+ .eiffeltower{
+	width: 100%;
+	margin-bottom: 500px;
+	margin-top: 20%;
+	padding: 50px;
+}
+
+.paris1 {
+	position: absolute;
+	width: 90%;
+	left: 5vw;
+	margin-top: -55%;
+	z-index: 1;
+}
+
+.collage {
+	width: 100%;
+	padding-top: 90%;
+	padding-bottom: 90%;
+}
+
+.euro1 {
+	width: 50%;
+	position: absolute;
+	margin-top: -5%;
+	left: 4vw;
+	z-index: 5;
+
+}
+
+.euro2 {
+	width: 50%;
+	position: absolute;
+	margin-top: 8%;
+	left: 4vw;
+	z-index: 4;
+	transform: rotate(10deg);
+
+}
+
+.metro {
+	width: 20%;
+	position: absolute;
+	margin-top: 10%;
+	right: 13vw;
+	z-index: 4;
+
+}
+
+
+
+
+.polaroid1 {
+	width: 35%;
+	height: auto;
+	position: absolute;
+	margin-top: 32%;
+	right: 5vw;
+	z-index: 4;
+
+}
+
+
+.polaroid2{
+	width: 45%;
+	height: auto;
+	position: absolute;
+	margin-top: 56%;
+	left: 5vw;
+	z-index: 4;
+
+}
+
+
+.ticket{
+	width: 28%;
+	height: auto;
+	position: absolute;
+	margin-top: 68%;
+	right: 10vw;
+	z-index: 4;
+
+}
+
+.ticket3 {
+	width: 28%;
+	height: auto;
+	position: absolute;
+	margin-top: 82%;
+	right: 12vw;
+	z-index: 4;
+	transform: rotate(-10deg);
+}
+
+
+.pin{
+	width: 16%;
+	height: auto;
+	position: absolute;
+	margin-top: -38%;
+	right: 10vw;
+	z-index: 4;
+
+}
+
+.paper{
+	width: 36%;
+	height: auto;
+	position: absolute;
+	margin-top: -68%;
+	right: 3vw;
+	z-index: -1;
+
+}
+
+
+
+.saintechappelle {
+	width: 100%;
+	margin-top: 50%;
+}
+
+.saintechappelle1 {
+	width: 100%;
+}
+
+
+.title3 {
+	font-size: 16vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	left: 1vw;
+	margin-top: 35%;
+}
+
+.title3part2 {
+	font-size: 16vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	right: 2vw;
+	margin-top: 98%;
+}
+
+
+
+.coin {
+	width: 20%;
+	position: absolute;
+	right: 30vw;
+	margin-top: -45%;
+}
+
+
+.painting {
+	width: 100%;
+	margin-top: -40%;
+}
+
+.intro-paragraph-section4 {
+	padding: 200px;
+	padding-top: 200px;
+	margin-bottom: -25%;
+	margin-top: -10%;
+
+}
+
+.jardin2 {
+	width: 100%;
+	display: block;
+	margin-top: 10%;
+	padding: 50px;
+}
+
+.title4 {
+	font-size: 14vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	left: 1vw;
+	margin-top: 88%;
+}
+
+.title42 {
+	font-size: 8vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	left: 30vw;
+	margin-top: 104%;
+}
+
+
+.title43 {
+	font-size: 14vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	left: 40vw;
+	margin-top: 103%;
+}
+
+.intro-paragraph-section2 {
+	padding: 200px;
+	margin-bottom: 30%;
+	padding-top: 200px;
+}
+
+
+.louvre8 {
+	width: 50vw;
+	height: auto;
+	position: absolute;
+	margin-top: -46%;
+	z-index: -1;
+	right: 15vw;
+	border: 3vw solid white;
+	box-shadow: 3px 3px 5px #db8849;
+
+}
+
+.louvre2 {
+	width: 50vw;
+	height: auto;
+	position: absolute;
+	z-index: 5;
+	right: 35vw;
+	margin-top: 20%;
+	border: 3vw solid white;
+	box-shadow: 3px 3px 5px #db8849;
+}
+
+.louvre4 {
+	width: 50vw;
+	height: auto;
+	position: absolute;
+	z-index: 4;
+	right: 15vw;
+	margin-top: 50%;
+	border: 3vw solid white;
+	box-shadow: 3px 3px 5px #db8849;
+
+}
+
+.louvre11 {
+	width: 50vw;
+	height: auto;
+	position: absolute;
+	z-index: 4;
+	right: 35vw;
+	margin-top: 115%;
+	border: 3vw solid white;
+	box-shadow: 3px 3px 5px #db8849;
+
+}
+
+.intro-paragraph-section5 {
+	padding: 200px;
+	margin-bottom: 30%;
+	padding-top: 200px;
+	margin-top: 170%;
+}
+
+.louvregif {
+	position: absolute;
+	width: 80%;
+	left: 8vw;
+	height: auto;
+	margin-top: -40%;
+	z-index: 98;
+}
+
+
+.art {
+	font-size: 5vw;
+	width: 70%;
+	position: absolute;
+	z-index: 99;
+	line-height: 1;
+	transform: rotate(-5deg);
+	margin-top: 6%;
+	right: -10vw;
+}
+
+.provence {
+	width: 100%;
+	margin-top: 105%;
+}
+
+.provence1 {
+	width: 100%;
+}
+
+
+
+
+.title5 {
+	font-size: 16vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	left: 0vw;
+	margin-top: -83%;
+}
+
+.title52 {
+	font-size: 12vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	right: 4vw;
+	margin-top: -23%;
+}
+
+.title53 {
+	font-size: 16vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	right: 2vw;
+	margin-top: -20%;
+}
+
+.provence2 {
+	width: 100%;
+	height: auto;
+}
+
+
+.tape1 {
+	position: absolute;
+	z-index: 10;
+	margin-top: -92%;
+	left: 9vw;
+	width: 35%;
+}
+
+
+
+
+
+
+.map{
+	width: 80%;
+	display: block;
+	margin: 50px auto 50px auto;
+	transform: rotate(-2deg);
+	margin-top: -10%;
+}
+
+
+
+.lavender {
+	width: 40%;
+	position: absolute;
+	margin-top: -30%;
+}
+
+
+.alsace {
+	width: 100%;
+	margin-top: 20%;
+}
+
+.alsace1 {
+	width: 100%;
+}
+
+.title6 {
+	font-size: 16vw;
+	margin: 0;
+	color: white;
+	position: absolute;
+	right: 0vw;
+	margin-top: -82%;
+}
+
+
+
+.intro-paragraph-section3 {
+	padding: 200px;
+	padding-top: 200px;
+
+}
+
+.drawings {
+
+}
+
+.painting1 {
+	position: absolute;
+	margin-top: 0%;
+	width: 45%;
+	left: 7vw;
+	box-shadow: 3px 3px 5px #db8849;
+
+}
+
+.painting2 {
+	position: absolute;
+	margin-top: 10%;
+	width: 45%;
+	right: 7vw;
+	box-shadow: 3px 3px 5px #db8849;
+}
+
+
+
+
+
+.magnet {
+	width: 10%;
+	margin-top: -80%;
+	position: absolute;
+	right: 5vw;
+	transform: rotate(5deg);
+}
+
+
+.alsace2 {
+	width: 80%;
+	display: block;
+	margin: 50px auto 50px auto;
+	margin-top: -5%;
+}
+
+
+.tape2 {
+	position: absolute;
+	z-index: 10;
+	left: 30vw;
+	width: 35%;
+	margin-top: -56%;
+}
+
+.alsaceflex {
+	display: flex;
+	padding: 200px 0 200px 0;
+	margin-top: 40%;
+
+}
+
+
+
+@media all and (max-width: 800px) {
+	.versailles
+	 {
+		flex-direction: column;
+	}
+	.column {
+		width: 100%;
+	}
+	.versailles2 {
+		flex-direction: column;
+	}
+	.alsaceflex {
+		flex-direction: column;
+	}
+	.intro-paragraph-section {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.intro-paragraph-section2 {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.intro-paragraph-section3 {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.intro-paragraph-section4 {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.intro-paragraph-section5 {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.louvre8 {
+	margin-top: -36%;
+	}
+	.louvre2 {
+	margin-top: 30%;
+	}
+	.louvre4 {
+	margin-top: 60%;
+	}
+	.louvre11 {
+	margin-top: 125%;
+	}
+	.coin{
+	right: 60vw;
+	margin-top: -55%;
+	width:30%;
+	}
+	.ticket2 {
+	width:55%;
+	margin-top: -48%;
+	left: 8vw;;
+	}
+	.pin{
+		width: 30%;
+		margin-top: -48%;
+		left: 50vw;
+	}
+	.tape1 {
+	margin-top: -235%;
+	left: 30vw;
+	width: 45%;
+	}
+	.tape2 {
+	left: 30vw;
+	width: 35%;
+	margin-top: -58%;
+	}
+}
+
+
+@media all and (max-width: 500px) {
+	.versailles
+	 {
+		flex-direction: column;
+	}
+	.column {
+		width: 100%;
+	}
+	.versailles2 {
+		flex-direction: column;
+	}
+	.alsaceflex {
+		flex-direction: column;
+	}
+	.intro-paragraph-section {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.intro-paragraph-section2 {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.intro-paragraph-section3 {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.intro-paragraph-section4 {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.intro-paragraph-section5 {
+		width: 100%;
+		padding: 50px;
+		margin-bottom: 30%;
+		padding-top: 200px;
+	}
+	.louvre8 {
+	margin-top: -36%;
+	}
+	.louvre2 {
+	margin-top: 30%;
+	}
+	.louvre4 {
+	margin-top: 60%;
+	}
+	.louvre11 {
+	margin-top: 125%;
+	}
+	.coin{
+	right: 60vw;
+	margin-top: -75%;
+	width:30%;
+	}
+	.ticket2 {
+	width:55%;
+	margin-top: -68%;
+	left: 8vw;;
+	}
+	.pin{
+		width: 30%;
+		margin-top: -68%;
+		left: 50vw;
+	}
+	.tape1 {
+	margin-top: -315%;
+	left: 30vw;
+	width: 45%;
+	}
+	.tape2 {
+	left: 30vw;
+	width: 35%;
+	margin-top: -62%;
+	}
+}
+
+
+@media all and (min-width: 1000px) {
+	.coin {
+		margin-top: -42%;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	.coin {
+		margin-top: -38%;
+	}
+}
