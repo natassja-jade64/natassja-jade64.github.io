@@ -444,7 +444,7 @@ h2 {
 
 .intro-paragraph-section2 {
 	padding: 200px;
-	margin-bottom: 30%;
+	margin-bottom: 40%;
 	padding-top: 200px;
 }
 
@@ -500,7 +500,7 @@ h2 {
 	padding: 200px;
 	margin-bottom: 30%;
 	padding-top: 200px;
-	margin-top: 170%;
+	margin-top: 180%;
 }
 
 .louvregif {
@@ -682,6 +682,13 @@ h2 {
 
 }
 
+.intro-paragraph-sectionlast {
+	padding: 100px;
+	padding-top: 100px;
+	text-align: center;
+
+}
+
 
 
 @media all and (max-width: 800px) {
@@ -707,7 +714,7 @@ h2 {
 	.intro-paragraph-section2 {
 		width: 100%;
 		padding: 50px;
-		margin-bottom: 30%;
+		margin-bottom: 40%;
 		padding-top: 200px;
 	}
 	.intro-paragraph-section3 {
@@ -725,7 +732,7 @@ h2 {
 	.intro-paragraph-section5 {
 		width: 100%;
 		padding: 50px;
-		margin-bottom: 30%;
+		margin-bottom: 40%;
 		padding-top: 200px;
 	}
 	.louvre8 {
@@ -768,6 +775,8 @@ h2 {
 }
 
 
+
+
 @media all and (max-width: 500px) {
 	.versailles
 	 {
@@ -791,7 +800,7 @@ h2 {
 	.intro-paragraph-section2 {
 		width: 100%;
 		padding: 50px;
-		margin-bottom: 30%;
+		margin-bottom: 40%;
 		padding-top: 200px;
 	}
 	.intro-paragraph-section3 {
@@ -861,5 +870,51 @@ h2 {
 @media all and (min-width: 1200px) {
 	.coin {
 		margin-top: -38%;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.coin{
+	right: 65vw;
+	}
+}
+
+@media all and (max-width: 700px) {
+	.coin{
+	margin-top: -65%;
+	right: 65vw;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.coin{
+	margin-top: -70%;
+	right: 62vw;
+	}
+}
+
+@media all and (max-width: 470px) {
+	.coin{
+	margin-top: -80%;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.coin{
+	margin-top: -90%;
+	}
+}
+
+@media all and (max-width: 360px) {
+	.coin{
+	margin-top: -95%;
+	}
+}
+
+
+
+@media all and (max-width: 320px) {
+	.coin{
+	margin-top: -105%;
 	}
 }
